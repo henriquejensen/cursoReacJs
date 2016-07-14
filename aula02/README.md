@@ -22,7 +22,7 @@ jsx
 
 ### render
 
-	função principal que deve ir dentro do Reac.createClass, nele irá o código html
+	função principal que deve ir dentro do React.createClass, nele irá o código html
 	que será mostrado.
 	O atributo class deve ser denominado como className
 
