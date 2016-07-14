@@ -11711,15 +11711,15 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _titleBox = __webpack_require__(174);
+	var _titleBox = __webpack_require__(173);
 
 	var _titleBox2 = _interopRequireDefault(_titleBox);
 
-	var _commentBox = __webpack_require__(175);
+	var _commentBox = __webpack_require__(174);
 
 	var _commentBox2 = _interopRequireDefault(_commentBox);
 
-	var _reactDom = __webpack_require__(173);
+	var _reactDom = __webpack_require__(175);
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -31371,15 +31371,6 @@
 /* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
-
-	module.exports = __webpack_require__(18);
-
-
-/***/ },
-/* 174 */
-/***/ function(module, exports, __webpack_require__) {
-
 	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
@@ -31413,7 +31404,7 @@
 	};
 
 /***/ },
-/* 175 */
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -31447,6 +31438,15 @@
 	exports.default = {
 		CommentBox: CommentBox
 	};
+
+/***/ },
+/* 175 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	module.exports = __webpack_require__(18);
+
 
 /***/ }
 /******/ ]);

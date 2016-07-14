@@ -6,7 +6,7 @@ Compilação dos arquivos
 
 	O comando
 
-    npm --watch --progresse
+    sudo webpack --watch --progresse
 
     deve ficar rodando sempre, para que as alterações sejam monitoradas
 

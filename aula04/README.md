@@ -1,4 +1,4 @@
-Aula 03 -> Criando várias classes
+Aula 04 -> Propriedades nas classes
 ==============================
 
 Compilação dos arquivos
@@ -6,27 +6,15 @@ Compilação dos arquivos
 
 	O comando
 
-    npm --watch --progresse
+    sudo webpack --watch --progresse
 
     deve ficar rodando sempre, para que as alterações sejam monitoradas
 
-jsx
----
-	### exportando as classes
-		A classe a ser exportada deverá ter a seguinte declaração no lugar da renderização:
 
-		```
-		export default {
-			NomeClasse: NomeClasse
-		}
-		```
+### getDefaultProps
 
-	### importando classes
-		Na classe que irá importar a declaração será a seguinte
+	Função que recebe as declarações das propriedades que serão recebidas como parâmetros.
+	A utilização das propriedades é feita utilizando o comando:
+		*this.props.nomedapropriedade*
 
-		```
-		import Nome from "./arquivo.jsx";
-
-		var Nome = Nome.NomeClasse;
-		```
-		Nome é o nome a ser chamado no arquivo
+	Dentro do código da função render o código javascript é escrito entre *{ }*

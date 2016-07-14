@@ -17,6 +17,6 @@ Aula 01 -> Introdução ao React
 
 	Após a criação dos arquivos deve-se compila-los e monitorá-los e esta função é do comando
 
-    npm --watch --progresse
+    sudo webpack --watch --progresse
 
     Ele irá ficar monitorando as alterações nos arquivos do projeto

@@ -21,8 +21,8 @@ obs: especificação do código pode ser encontrada no site do [node](https://no
 ### Comandos pós-instalação
 
 ```
-npm install --save-dev
+sudo npm install --save-dev
 ```
 ```
-npm install webpack -g
+sudo npm install webpack -g
 ```
