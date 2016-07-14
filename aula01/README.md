@@ -12,3 +12,11 @@ Aula 01 -> Introdução ao React
 #### index.html
 
 	Arquivo que contém o codigo html que será utilizado no projeto
+
+### Compilação dos arquivos
+
+	Após a criação dos arquivos deve-se compila-los e monitorá-los e esta função é do comando
+
+    npm --watch --progresse
+
+    Ele irá ficar monitorando as alterações nos arquivos do projeto
