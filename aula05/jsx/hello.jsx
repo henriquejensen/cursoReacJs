@@ -8,7 +8,9 @@ var HelloBox = React.createClass ({
 
 	render: function() {
 		return (
-			<TitleBox corLetra="red" children="Titulo aula 5"/>
+			<TitleBox corLetra="red" >
+				Titulo passado pelo children
+			</TitleBox>
 		);
 	}
 

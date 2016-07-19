@@ -11730,7 +11730,11 @@
 			return _react2.default.createElement(
 				"div",
 				{ className: "helloBox" },
-				_react2.default.createElement(TitleBox, { text: "Teste do texto por parâmetro", corLetra: "green" })
+				_react2.default.createElement(
+					TitleBox,
+					{ corLetra: "green" },
+					"Teste do texto por parâmetro"
+				)
 			);
 		}
 	});
@@ -31390,7 +31394,6 @@
 		displayName: "TitleBox",
 		getDefaultProps: function getDefaultProps() {
 			return {
-				text: "",
 				corLetra: ""
 			};
 		},
@@ -31403,7 +31406,7 @@
 				_react2.default.createElement(
 					"h1",
 					{ style: { color: this.props.corLetra } },
-					this.props.text
+					this.props.children
 				)
 			);
 		}

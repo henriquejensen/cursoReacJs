@@ -8,7 +8,9 @@ var HelloBox = React.createClass({
 	render: function() {
 		return (
 			<div className="helloBox">
-				<TitleBox text="Teste do texto por parâmetro" corLetra="green"/>
+				<TitleBox corLetra="green" >
+					Teste do texto por parâmetro
+				</TitleBox>
 			</div>
 		);
 	}

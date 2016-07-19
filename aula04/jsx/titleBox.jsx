@@ -3,7 +3,6 @@ import React from "react";
 var TitleBox = React.createClass({
 	getDefaultProps() {
 		return {
-			text: "",
 			corLetra: ""
 		}
 	},
@@ -12,7 +11,7 @@ var TitleBox = React.createClass({
 		return (
 			<div className="titleBox">
 			 <h1 style={{color: this.props.corLetra}}>
-			 	{this.props.text}
+			 	{this.props.children}
 			 </h1>
 			</div>
 		);

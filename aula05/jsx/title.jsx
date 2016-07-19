@@ -16,16 +16,24 @@ var TitleBox = React.createClass ({
 
 	getDefaultProps() {
 		return {
-			corLetra: "",
-			children: ""
+			corLetra: "grey",
+			fonte: 48
 		}
+	},
+
+	componentDidMount() {
+
+	},
+
+	componentWillMount() {
+
 	},
 
 	render: function() {
 		return (
 			<div className="titleBox">
 				{!this.state.hide ?
-					(<h1 style={{color: this.props.corLetra}}>
+					(<h1 style={{color: this.props.corLetra, fontSize: this.props.fonte}}>
 						{this.props.children}
 					</h1>)
 					:("")

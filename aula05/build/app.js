@@ -11727,7 +11727,11 @@
 
 
 		render: function render() {
-			return _react2.default.createElement(TitleBox, { corLetra: "red", children: "Titulo aula 5" });
+			return _react2.default.createElement(
+				TitleBox,
+				{ corLetra: "red" },
+				"Titulo passado pelo children"
+			);
 		}
 
 	});
@@ -31397,10 +31401,12 @@
 		},
 		getDefaultProps: function getDefaultProps() {
 			return {
-				corLetra: "",
-				children: ""
+				corLetra: "grey",
+				fonte: 48
 			};
 		},
+		componentDidMount: function componentDidMount() {},
+		componentWillMount: function componentWillMount() {},
 
 
 		render: function render() {
@@ -31409,7 +31415,7 @@
 				{ className: "titleBox" },
 				!this.state.hide ? _react2.default.createElement(
 					"h1",
-					{ style: { color: this.props.corLetra } },
+					{ style: { color: this.props.corLetra, fontSize: this.props.fonte } },
 					this.props.children
 				) : "",
 				"Valor de hide: ",

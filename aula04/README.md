@@ -18,3 +18,7 @@ Compilação dos arquivos
 		*this.props.nomedapropriedade*
 
 	Dentro do código da função render o código javascript é escrito entre *{ }*
+
+### children
+
+	this.props.children -> Voce pode passar uma propriedade do tipo texto no meio das tags e recebe-la utilizando esta propriedade no objeto

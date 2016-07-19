@@ -25,8 +25,8 @@ Compilação dos arquivos
 
 ### componentDidMount
 
-	Função que recebes as funcionalidades a serem realizadas quando a classe for renderizada. Executa no lado cliente
+	Função que recebe as funcionalidades a serem realizadas antes de a classe ser renderizada. Executa no lado cliente
 
 ###	componentWillMount
 
-	Funciona da mesma forma que componentDidMount porém executa no lado cliente e servidor.
+	Funciona da mesma forma que componentDidMount porém executa depois de a classe ser renderizada e no lado cliente e servidor.
