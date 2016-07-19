@@ -22,7 +22,7 @@ var TitleBox = React.createClass ({
 	},
 
 	componentDidMount() {
-
+		
 	},
 
 	componentWillMount() {
@@ -38,7 +38,7 @@ var TitleBox = React.createClass ({
 					</h1>)
 					:("")
 				}
-
+				
 				Valor de hide: {this.state.hide.toString()}
 				<br></br>
 				<button onClick={this.trocaValor}
